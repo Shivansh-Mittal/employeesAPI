@@ -6,10 +6,16 @@
             "use": "@vercel/node"
         }
     ],
+    "redirects": [
+        {
+            "source": "/employee",
+            "destination": "/routes/employee"
+        }
+    ],
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/"
+            "source": "/(.*)",
+            "destination": "/routes/"
         }
     ]
 }
