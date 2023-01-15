@@ -1,14 +1,14 @@
 {
     "builds": [
         {
-            "src": "index.js",
+            "src": "server.js",
             "use": "@vercel/node"
         }
     ],
     "redirects": [
         {
-            "source": "/employee",
-            "destination": "/routes/employee"
+            "source": "/employee/get",
+            "destination": "/routes/employee/get"
         }
     ]
 }
