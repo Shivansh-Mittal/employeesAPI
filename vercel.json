@@ -1,5 +1,4 @@
 {
-    "version": 2,
     "builds": [
         {
             "src": "index.js",
@@ -10,12 +9,6 @@
         {
             "source": "/employee",
             "destination": "/routes/employee"
-        }
-    ],
-    "routes": [
-        {
-            "source": "/(.*)",
-            "destination": "/routes/"
         }
     ]
 }
