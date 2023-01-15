@@ -1,14 +1,16 @@
 {
+    "version": 2,
     "builds": [
-        {
-            "src": "index.js",
-            "use": "@vercel/node"
-        }
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      }
     ],
-    "redirects": [
-        {
-            "source": "/employee/get",
-            "destination": "/routes/employee/get"
-        }
+    "routes": [
+      {
+        "handle": "next",
+        "src": "/.*"
+      }
     ]
-}
+  }
+  
